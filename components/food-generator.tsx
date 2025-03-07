@@ -191,7 +191,7 @@ export default function FoodGenerator() {
                   id="vegetarian"
                   checked={restrictions.includes("vegetarian")}
                   onCheckedChange={() => toggleRestriction("vegetarian")}
-                  className="border-pink-300 text-pink-500 h-3 w-3"
+                  className="border-pink-300 text-pink-500"
                 />
                 <Label htmlFor="vegetarian" className=" text-gray-700 text-[14px]">
                   Vejetaryen
@@ -202,7 +202,7 @@ export default function FoodGenerator() {
                   id="lactoVegetarian"
                   checked={restrictions.includes("lactoVegetarian")}
                   onCheckedChange={() => toggleRestriction("lactoVegetarian")}
-                  className="border-pink-300 text-pink-500 h-3 w-3"
+                  className="border-pink-300 text-pink-500"
                 />
                 <Label htmlFor="lactoVegetarian" className=" text-gray-700 text-[14px]">
                   Lakto-Vejetaryen
@@ -213,7 +213,7 @@ export default function FoodGenerator() {
                   id="vegan"
                   checked={restrictions.includes("vegan")}
                   onCheckedChange={() => toggleRestriction("vegan")}
-                  className="border-pink-300 text-pink-500 h-3 w-3"
+                  className="border-pink-300 text-pink-500"
                 />
                 <Label htmlFor="vegan" className=" text-gray-700 text-[14px]">
                   Vegan
@@ -224,7 +224,7 @@ export default function FoodGenerator() {
                   id="glutenFree"
                   checked={restrictions.includes("glutenFree")}
                   onCheckedChange={() => toggleRestriction("glutenFree")}
-                  className="border-pink-300 text-pink-500 h-3 w-3"
+                  className="border-pink-300 text-pink-500"
                 />
                 <Label htmlFor="glutenFree" className=" text-gray-700 text-[14px]">
                   Glutensiz
